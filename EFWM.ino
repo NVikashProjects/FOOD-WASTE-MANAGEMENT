@@ -41,7 +41,7 @@ void loop() {
   
   lcd.clear();
   lcd.setCursor(2, 0);
-  lcd.print("Food Waste: ")
+  lcd.print("Food Waste: ");
   lcd.print(weight, 0);
   lcd.print(" kg");
   lcd.noBlink();
