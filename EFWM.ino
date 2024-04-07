@@ -1,9 +1,9 @@
 
 #define BLYNK_PRINT Serial
 
-#define BLYNK_TEMPLATE_ID "TMPL3uvN0YHod"
-#define BLYNK_TEMPLATE_NAME "Efficient Food Waste Management System"
-#define BLYNK_AUTH_TOKEN "5ExD254Iya4_2ayNrSC5JnrxpQOvpLaD"
+#define BLYNK_TEMPLATE_ID "Your Template Id"
+#define BLYNK_TEMPLATE_NAME "Your Template Name"
+#define BLYNK_AUTH_TOKEN "Your Auth token"
 
 #include <LiquidCrystal_I2C.h>
 #include <BlynkSimpleEsp8266.h>
@@ -19,8 +19,8 @@ HX711 scale;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "EFWM";
-char pass[] = "12345678";
+char ssid[] = "ssid"; // place your ssid
+char pass[] = "password"; // place your password
 
 float AfterWeight, currentWeight = 0.0;
 int personCount = 0;
