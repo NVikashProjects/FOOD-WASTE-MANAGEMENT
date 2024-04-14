@@ -1,2 +1,0 @@
-# FOOD-WASTE-MANAGEMENT
-IoT with Blynk
