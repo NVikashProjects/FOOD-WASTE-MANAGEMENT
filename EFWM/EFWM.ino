@@ -58,7 +58,7 @@ void loop() {
   if (millweight > currentWeight) {
     AfterWeight = millweight - currentWeight;
 
-    if (AfterWeight > 200.0) {
+    if (AfterWeight > 50.0) {
       personCount += 1;
     }
     currentWeight = millweight;
